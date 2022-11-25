@@ -31,6 +31,7 @@ jobs:
     - uses: LasyIsLazy/github-upload-action@v0.2.0
       with:
         access-token: ${{ secrets.ACCESS_TOKEN }}
+        
         file-path: ./dist/
         owner: Learntotolearn
         repo: naive-ui-admin
